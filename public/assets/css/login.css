@@ -13,9 +13,11 @@ body {
     width: 385px; 
     background-color: rgba(255, 255, 255, 0.9);
     margin: 0 auto; 
-    margin-top: 80px;
-    padding: 50px;
+    margin-top: 80;
+    padding: 50;
     padding-top: 40px;
+    
+    
 }
 
 .center{
@@ -25,7 +27,7 @@ body {
 .input{
     border: #343434 1px solid;
     border-radius: 0px;
-    width: 100%;
+    width: 100px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0);
 }

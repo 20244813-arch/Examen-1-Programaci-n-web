@@ -7,7 +7,14 @@ export function home(req, res) {
       'Esta es una aplicación de ejemplo creada con Node.js, Express y EJS.'
   });
 }
-
+export function Students(req, res) {
+  return res.render('website/Students', {
+    title: 'Lista de Alumnos :)',
+    currentPage: 'Students',
+    description:
+      'Esta es una aplicación de ejemplo creada con Node.js, Express y EJS.'
+  });
+}
 export function convocatorias(req, res) {
   return res.render('website/convocatorias', {
     title: 'Crear cuenta :)',
